@@ -85,8 +85,108 @@
       </section>
 
       <section>
-        <h2>Example</h2>
-        format
+        <h2>Examples</h2>
+        <p>Source- and form-based objects</p>
+      </section>
+
+      <section>
+        <section>
+          <h2>Source-based objects</h2>
+          <p><em>ABAP Interface</em> contains
+          </p>
+          <ul>
+            <li>object_name.intf.abap</li>
+            <li>object_name.intf.json</li>
+          </ul>
+          <!-- <p><em>ABAP Class</em> contains
+          </p>
+          <ul>
+            <li>object_name.clas.abap</li>
+            <li>object_name.definitions.abap</li>
+            <li>object_name.implementations.abap</li>
+            <li>object_name.macros.abap</li>
+            <li>object_name.testclasses.abap</li>
+            <li>object_name.clas.json</li>
+            <li>object_name.texts.LANG.abap</li>
+
+          </ul> -->
+        </section>
+
+        <section>
+          <h2>Source-based objects</h2>
+          <p>Meta file example AFF</p>
+          <pre><code data-trim data-noescape>
+            {
+              "formatVersion": "1",
+              "header": {
+                "description": "AFF: Interface v1",
+                "originalLanguage": "en"
+              }
+            }
+          </code></pre>
+          <p>Default values are not serialized <em>Interface category</em> and <em>Proxy interface</em></p>
+        </section>
+
+        <section data-markdown>
+
+          <textarea data-template>
+            ## Source-based objects
+            Meta file example abapGit
+            ```xml
+            <?xml version="1.0" encoding="utf-8"?>
+            <abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+            <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+              <asx:values>
+              <VSEOINTERF>
+                <CLSNAME>ZIF_ABAPGIT_AFF_INTF_V1</CLSNAME>
+                <LANGU>E</LANGU>
+                <DESCRIPT>AFF: Interface v1</DESCRIPT>
+                <EXPOSURE>2</EXPOSURE>
+                <STATE>1</STATE>
+                <UNICODE>X</UNICODE>
+              </VSEOINTERF>
+              </asx:values>
+            </asx:abap>
+            </abapGit>
+            ```
+          </textarea>
+        </section>
+      </section>
+
+        <section>
+          <h2>From-based objects</h2>
+          <h3>TODO: decide which object type to show</h3>
+          <em>object_name.chko.json</em>
+          <h3>TODO: Form and Source Editor side by side (screenshot)</h3>
+          <img src="./img/chko.svg" class="plain" width="400px">
+          <pre><code data-trim data-noescape>
+          {
+            "formatVersion": "1",
+            "header": {
+              "description": "Example CHKO for ABAP file formats",
+              "originalLanguage": "en"
+            },
+            "category": "Z_AFF_EXAMPLE_CHKC",
+            "implementingClass": "ZCL_CI_TEST_AFF_EXAMPLE_CHECK",
+            "parameters": [
+              {
+                "name": "ParameterName",
+                "description": "Parameter description"
+              }
+            ]
+          }
+            </code></pre>
+
+        </section>
+
+
+
+
+      <section>
+        <h2>AFF serializers in SAP Basis</h2>
+        Available serializers in latest <em>ABAP Steampunk</em>
+        CLAS, INTF, CHKO, CHKV, EEEC, ...
+
       </section>
 
       <section>
