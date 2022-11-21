@@ -92,29 +92,15 @@
       <section>
         <section>
           <h2>Source-based objects</h2>
-          <p><em>ABAP Interface</em> contains
-          </p>
+          <p>Files for object type <em>ABAP Interface</em></p>
           <ul>
             <li>object_name.intf.abap</li>
             <li>object_name.intf.json</li>
           </ul>
-          <!-- <p><em>ABAP Class</em> contains
-          </p>
-          <ul>
-            <li>object_name.clas.abap</li>
-            <li>object_name.definitions.abap</li>
-            <li>object_name.implementations.abap</li>
-            <li>object_name.macros.abap</li>
-            <li>object_name.testclasses.abap</li>
-            <li>object_name.clas.json</li>
-            <li>object_name.texts.LANG.abap</li>
-
-          </ul> -->
         </section>
 
         <section>
-          <h2>Source-based objects</h2>
-          <p>Meta file example AFF</p>
+          <h2>Meta file example AFF</h2>
           <pre><code data-trim data-noescape>
             {
               "formatVersion": "1",
@@ -124,14 +110,14 @@
               }
             }
           </code></pre>
-          <p>Default values are not serialized <em>Interface category</em> and <em>Proxy interface</em></p>
+          <p>Default values are not serialized, like <em>Interface category</em> and <em>Proxy interface</em></p>
+          <p>Validation and annotation with JSON Schema</p>
         </section>
 
         <section data-markdown>
 
           <textarea data-template>
-            ## Source-based objects
-            Meta file example abapGit
+            ## Meta file example abapGit
             ```xml
             <?xml version="1.0" encoding="utf-8"?>
             <abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
@@ -151,13 +137,20 @@
             ```
           </textarea>
         </section>
+
       </section>
+
+      <section>
 
         <section>
           <h2>From-based objects</h2>
-          <h3>TODO: decide which object type to show</h3>
+          <p>TODO: decide which object type to show</p>
           <em>object_name.chko.json</em>
-          <h3>TODO: Form and Source Editor side by side (screenshot)</h3>
+        </section>
+
+
+        <section>
+          <h2>TODO: Form and Source Editor side by side (screenshot)</h2>
           <img src="./img/chko.svg" class="plain" width="400px">
           <pre><code data-trim data-noescape>
           {
@@ -175,11 +168,16 @@
               }
             ]
           }
-            </code></pre>
+          </code></pre>
 
         </section>
 
+        <section>
+          <h2>ADT History view</h2>
+          <p>TODO: screenshots</p>
+        </section>
 
+      </section>
 
 
       <section>
