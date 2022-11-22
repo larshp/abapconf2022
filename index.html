@@ -144,37 +144,67 @@
 
         <section>
           <h2>From-based objects</h2>
-          <p>TODO: decide which object type to show</p>
-          <em>object_name.chko.json</em>
+          <p>ATC check variant (CHKV) -- name.chkv.json</p>
+          <img src="./img/adt_chkv.png" class="plain" height="450px">
         </section>
 
 
         <section>
-          <h2>TODO: Form and Source Editor side by side (screenshot)</h2>
-          <img src="./img/chko.svg" class="plain" width="400px">
-          <pre><code data-trim data-noescape>
-          {
-            "formatVersion": "1",
-            "header": {
-              "description": "Example CHKO for ABAP file formats",
-              "originalLanguage": "en"
-            },
-            "category": "Z_AFF_EXAMPLE_CHKC",
-            "implementingClass": "ZCL_CI_TEST_AFF_EXAMPLE_CHECK",
-            "parameters": [
+          <h2>ATC check variant</h2>
+
+          <div class="container">
+
+            <div class="col">
+              <p>ADT editor</p>
+              <img src="./img/adt_chkv.png" class="plain">
+            </div>
+
+            <div class="col">
+              <p>AFF file</p>
+              <pre style="font-size: 14px"><code data-trim data-noescape>
               {
-                "name": "ParameterName",
-                "description": "Parameter description"
+                "formatVersion": "1",
+                "header": {
+                  "description": "Default ATC variant for ABAP Cloud Development",
+                  "originalLanguage": "en",
+                  "abapLanguageVersion": "cloudDevelopment"
+                },
+                "selectedChecks": [
+                  {
+                    "checkName": "BDEF_IMPL_CHECK"
+                  },
+                  {
+                    "checkName": "CI_ANALYZE_WHERE",
+                    "parameters": [
+                      {
+                        "name": "NoWhereCondition",
+                        "value": "true"
+                      },
+                      ...
+                    ]
+                  },
+                  ...
+                ]
               }
-            ]
-          }
-          </code></pre>
+              </code></pre>
+            </div>
+          </div>
 
         </section>
 
         <section>
-          <h2>ADT History view</h2>
-          <p>TODO: screenshots</p>
+          <h2>One file</h2>
+          <div class="container">
+
+            <div class="col">
+              ADT History/Compare
+              <img src="./img/adt_compare.png" class="plain" height="400px">
+            </div>
+
+            <div class="col">
+              abapGit
+              <img src="./img/abapgit_chkv.png" class="plain" height="400px">
+            </div>
         </section>
 
       </section>
