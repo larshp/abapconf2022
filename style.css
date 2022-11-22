@@ -9,3 +9,10 @@
 .reveal h3 {
   text-transform: none;
 }
+
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
