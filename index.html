@@ -93,14 +93,21 @@
         <section>
           <h2>Source-based objects</h2>
           <p>Files for object type <em>ABAP Interface</em></p>
-          <ul>
-            <li>object_name.intf.abap</li>
-            <li>object_name.intf.json</li>
-          </ul>
+          <table style="font-size:32px">
+            <tr>
+              <th>object_name.intf.abap</th>
+              <th>ABAP source code</th>
+            </tr>
+            <tr>
+              <th>object_name.intf.json</th>
+              <th>Metadata file</th>
+            </tr>
+          </table>
         </section>
 
         <section>
-          <h2>Meta file example AFF</h2>
+          <h2>Metadata file in AFF</h2>
+          <p>JSON data can be intuitive</p>
           <pre><code data-trim data-noescape>
             {
               "formatVersion": "1",
@@ -110,14 +117,16 @@
               }
             }
           </code></pre>
-          <p>Default values are not serialized, like <em>Interface category</em> and <em>Proxy interface</em></p>
-          <p>Validation and annotation with JSON Schema</p>
+          <!-- <p>Default values are not serialized, like <em>Interface category</em> and <em>Proxy interface</em></p> -->
+          <p>Possible validation and annotation with JSON Schema, e.g. <a href="https://marketplace.visualstudio.com/items?itemName=larshp.vscode-abap-file-formats">VS Code Extension</a></p>
         </section>
 
         <section data-markdown>
 
           <textarea data-template>
-            ## Meta file example abapGit
+            ## Metadata file in abapGit
+
+            The recent file format
             ```xml
             <?xml version="1.0" encoding="utf-8"?>
             <abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
@@ -198,12 +207,12 @@
 
             <div class="col">
               ADT History/Compare
-              <img src="./img/adt_compare.png" class="plain" height="400px">
+              <img src="./img/adt_compare.png" class="plain">
             </div>
 
             <div class="col">
               abapGit
-              <img src="./img/abapgit_chkv.png" class="plain" height="400px">
+              <img src="./img/abapgit_chkv.png" class="plain">
             </div>
         </section>
 
