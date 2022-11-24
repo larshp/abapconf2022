@@ -92,14 +92,67 @@
 
       <section>
         <h2>Examples</h2>
-        <p>Source- and form-based objects</p>
+        <ul>
+          <li>Form-based object: BAdI Enhancement Spot</li>
+          <li>Source-based object: ABAP Interface</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>BAdI Enhancement Spot</h2>
+
+        <div class="container">
+
+          <div class="col">
+            <p>ADT form-based editor</p>
+            <img src="./img/enhs_adt.png" class="plain">
+          </div>
+
+          <div class="col">
+            <p>AFF file</p>
+            <pre style="font-size: 14px"><code data-trim data-noescape>
+            {
+              "formatVersion": "1",
+              "header": {
+                "description": "",
+                "originalLanguage": "en"
+              },
+              "configuration": {
+                "tool": "badiDefinition"
+              },
+              "badiDefinitions": [
+                {
+                  "name": "BADI_WB_OBJECT_VERS_PROVIDER",
+                  "description": "BAdI  definition for workbench",
+                  "interface": "IF_WB_OBJECT_VERSION_PROVIDER",
+                  "instantiation": "creatingNewInstances",
+                  "multipleUse": false,
+                  "fallbackClass": "CL_BLUE_TLOGO_VERSION_PROVIDER",
+                  "filters": [
+                    {
+                      "name": "OBJECT_TYPE",
+                      "description": "Workbench object type",
+                      "type": "characterLike"
+                    }
+                  ]
+                }
+              ]
+            }
+            </code></pre>
+          </div>
+        </div>
+
       </section>
 
       <section>
         <section>
-          <h2>Source-based objects</h2>
-          <p>Files for object type <em>ABAP Interface</em></p>
-          <table style="font-size:32px">
+          <h2>ABAP Interface</h2>
+          <p></p>
+          <table>
+            <tr>
+              <th>File</th>
+              <th>Description</th>
+            </tr>
             <tr>
               <th>object_name.intf.abap</th>
               <th>ABAP source code</th>
@@ -123,8 +176,9 @@
               }
             }
           </code></pre>
-          <!-- <p>Default values are not serialized, like <em>Interface category</em> and <em>Proxy interface</em></p> -->
-          <p>Possible validation and annotation with JSON Schema, e.g. <a href="https://marketplace.visualstudio.com/items?itemName=larshp.vscode-abap-file-formats">VS Code Extension</a></p>
+          <p>Possible validation and annotation with JSON Schema, e.g. <a
+              href="https://marketplace.visualstudio.com/items?itemName=larshp.vscode-abap-file-formats">VS Code
+              Extension</a></p>
         </section>
 
         <section data-markdown>
@@ -156,59 +210,6 @@
       </section>
 
       <section>
-
-        <section>
-          <h2>From-based objects</h2>
-          <p>ATC check variant (CHKV) -- name.chkv.json</p>
-          <img src="./img/adt_chkv.png" class="plain" height="450px">
-        </section>
-
-
-        <section>
-          <h2>ATC check variant</h2>
-
-          <div class="container">
-
-            <div class="col">
-              <p>ADT editor</p>
-              <img src="./img/adt_chkv.png" class="plain">
-            </div>
-
-            <div class="col">
-              <p>AFF file</p>
-              <pre style="font-size: 14px"><code data-trim data-noescape>
-              {
-                "formatVersion": "1",
-                "header": {
-                  "description": "Default ATC variant for ABAP Cloud Development",
-                  "originalLanguage": "en",
-                  "abapLanguageVersion": "cloudDevelopment"
-                },
-                "selectedChecks": [
-                  {
-                    "checkName": "BDEF_IMPL_CHECK"
-                  },
-                  {
-                    "checkName": "CI_ANALYZE_WHERE",
-                    "parameters": [
-                      {
-                        "name": "NoWhereCondition",
-                        "value": "true"
-                      },
-                      ...
-                    ]
-                  },
-                  ...
-                ]
-              }
-              </code></pre>
-            </div>
-          </div>
-
-        </section>
-      </section>
-
-      <section>
         <h2>AFF vision of ONE format</h2>
 
         <div class="container">
@@ -228,10 +229,11 @@
 
 
       <section>
-        <h2>AFF serializers in SAP Basis</h2>
-        Available serializers in latest <em>ABAP Steampunk</em>
-        CLAS, INTF, CHKO, CHKV, EEEC, ...
-
+        <h2>Available object types</h2>
+        <p><b>AFF is specified for:</b> AOBJ, APIC, APLO, CFDF, CHDO, CHKC, CHKO, CHKV, CLAS, DDLS, DDLX, DMON, DOMA, DSFI, EEEC,
+          ENHO, ENHS, EVTB, FUGR, GSMP, INTF, NROB, RONT, SAJC, SAJT, SCP1, SITO, SMBC, SPRV, SRVB</p>
+        <p><b>abapGit supports:</b> CHKC, CHKO, CHKV, EVTC, NONT, RONT, SMBC, INTF (experimental)</p>
+        <p>SAP Basis 7.56 and newer provides serializer</p>
       </section>
 
       <section>
@@ -241,48 +243,6 @@
 
       <section>
         <img src="./img/schemas2.drawio.svg" class="plain">
-      </section>
-
-      <section>
-        <h2>Available AFF objects in abapGit</h2>
-        <table style="font-size:32px">
-          <tr>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-          <tr>
-            <td>CHKC</td>
-            <td>ATC Check Category</td>
-          </tr>
-          <tr>
-            <td>CHKO</td>
-            <td>ATC Check</td>
-          </tr>
-          <tr>
-            <td>CHKV</td>
-            <td>ATC Check Variant</td>
-          </tr>
-          <tr>
-            <td>EVTB</td>
-            <td>Event Binding</td>
-          </tr>
-          <tr>
-            <td>INTF</td>
-            <td>Interface (experimental)</td>
-          </tr>
-          <tr>
-            <td>NONT</td>
-            <td>SAP Object Node Type</td>
-          </tr>
-          <tr>
-            <td>RONT</td>
-            <td>SAP Object Types</td>
-          </tr>
-          <tr>
-            <td>SMBC</td>
-            <td>Business Configuration Maintenance Objects</td>
-          </tr>
-        </table>
       </section>
 
       <section>
