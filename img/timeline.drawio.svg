@@ -11,15 +11,15 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 7px; margin-left: 101px;">
                         <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
-                                <font style="font-size: 10px">
-                                    <font style="font-size: 12px" color="#1B9E77">
+                                <font>
+                                    <font style="font-size: 14px" color="#1B9E77">
                                         <b>
                                             SAP Link (2006)
                                         </b>
                                     </font>
                                     <br/>
                                     <br/>
-                                    <font size="1">
+                                    <font style="font-size: 12px">
                                         Sharing of ABAP code
                                     </font>
                                 </font>
@@ -40,7 +40,7 @@
                         <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 <font>
-                                    <font color="#d95f02">
+                                    <font style="font-size: 14px" color="#d95f02">
                                         <b>
                                             abapGit (2014)
                                             <br/>
@@ -71,7 +71,7 @@
                         <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 <font>
-                                    <font color="#7570b3">
+                                    <font style="font-size: 14px" color="#7570b3">
                                         <b>
                                             ABAP file formats (2021)
                                             <br/>
