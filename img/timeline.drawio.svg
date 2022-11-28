@@ -1,0 +1,102 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="293px" viewBox="-0.5 -0.5 341 293" content="&lt;mxfile&gt;&lt;diagram id=&quot;x0j4HIwktkM2eKp_j1dC&quot; name=&quot;Page-1&quot;&gt;7VhNb6MwEP01SNtDI4yTUI5Jmm0Pu1KlHPbswADeAmaN87W/fsdgh5CPJs1Gq67URCL2G3s8nnmvNnXoJF8/SVam30UEmeO50dqhj47n+ZTgUwObBhgEDw2QSB41EGmBGf8NBnQNuuARVJ2BSohM8bILhqIoIFQdjEkpVt1hsci6q5YsgQNgFrLsEP3BI5UalAyD1vAMPEnt0sNBv7HMWfiaSLEozIKOR0mgv405Z9aZ2WmVskisdiA6dehECqGaVr6eQKZza/PWzPt6wroNXEKhLpkw9JoZS5YtwIZcB6Y2NhsYY6mblYLSoeMSJM9BgTTQS9sfr1KuYFayUI9fITcQS1WeYY9gM+ZrsOXW/co0XWxHXGIpuSi0W7HQecLxWTYRmZB1IJTMA/B9PU9J8QrWUogCvYzrrIPel3a3TazuHGbFJGoJUsF6BzJZegKBW5IbHGKtvqmYoTShpr9qCWKHpDvUeDAYM5RMtp7bqmDDFOZEkeh/VKQoGMSu9zGKtP2DcqZIhNyiSv0PUKV777Iq+QPfndOPUSXa9/6dlPwjRRpmSmdI4I52qzX8tRDWcN/kd4QDiFuuWyO2EvP7Pi9e1wueZbY4LUiJ69Ngenq1uQVmoxf08Y0Xr/jzxXPd4Z0dgymZ789DrAl0z508j9gN2kPbhkYOo5ylTPIiwdEixsdoXAcZ4m3hTBwH8J6MWn6SUxTe4/u0/iDOMp5oXYTI31pnTIZWRlo7msYcbwIjM06J8gIxYrC7Tm6tGO+Cw8frH5GMfwvJPJyRzFF+HKVz7AWUwAV0ZnNWPnHVcJn0707T8a/Yfa1YGy+9Xk+nqdL51ZfWOt4w41A7jXH7W85HsIRMlDma9BxnsN3h4PHNve3u4wfHWuNaNjcTTQix0IuyAp+wLoVU7aJi/hOPAR1eLEWuZxaaU9UGj5q8vlLXmFApSBPVM2Rlr0J6vyOsT3VecOs4qs7bXDuCm8mTQZ9Q7wJ5GoJhFaFhOr7XVI1YPfKGWK+SbyOzUopl/VK4t2wtrpgXvL7vdE8aCaWouBJ1sbZq+KT1dbQ+dk07Susr7mnYbd95a9vOPxbo9A8=&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(25, 25, 25);">
+    <defs/>
+    <g>
+        <path d="M -5 5 L 65 5 L 75 40 L 65 75 L -5 75 L 5 40 Z" fill="#1b9e77" stroke="none" transform="rotate(90,35,40)" pointer-events="all"/>
+        <path d="M -20 100 L 80 100 L 90 135 L 80 170 L -20 170 L -10 135 Z" fill="#d95f02" stroke="none" transform="rotate(90,35,135)" pointer-events="all"/>
+        <path d="M -5 217 L 75 217 L 75 252 L 75 287 L -5 287 L -5 252 Z" fill="#7570b3" stroke="none" transform="rotate(90,35,252)" pointer-events="all"/>
+        <rect x="100" y="0" width="240" height="70" rx="8.4" ry="8.4" fill="#eeeeee" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 7px; margin-left: 101px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font>
+                                    <font style="font-size: 14px" color="#1B9E77">
+                                        <b>
+                                            SAP Link (2006)
+                                        </b>
+                                    </font>
+                                    <br/>
+                                    <br/>
+                                    <font style="font-size: 12px">
+                                        Sharing of ABAP code
+                                    </font>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="220" y="19" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    SAP Link (2006)...
+                </text>
+            </switch>
+        </g>
+        <rect x="100" y="80" width="240" height="110" rx="13.2" ry="13.2" fill="#eeeeee" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 87px; margin-left: 101px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font>
+                                    <font style="font-size: 14px" color="#d95f02">
+                                        <b>
+                                            abapGit (2014)
+                                            <br/>
+                                        </b>
+                                    </font>
+                                    <br/>
+                                    <font style="font-size: 12px">
+                                        ... is a git client for ABAP development. [abapGit]
+                                        <br/>
+                                    </font>
+                                    With abapGit, you can export ABAP objects from any system to another. [Help.sap]
+                                    <br/>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="220" y="99" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    abapGit (2014)...
+                </text>
+            </switch>
+        </g>
+        <rect x="100" y="212" width="240" height="80" rx="9.6" ry="9.6" fill="#eeeeee" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 219px; margin-left: 101px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font>
+                                    <font style="font-size: 14px" color="#7570b3">
+                                        <b>
+                                            ABAP file formats (2021)
+                                            <br/>
+                                            <br/>
+                                        </b>
+                                    </font>
+                                    ... provides file format definition of ABAP repository objects
+                                    <br/>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="220" y="231" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ABAP file formats (2021)...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
