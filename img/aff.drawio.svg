@@ -1,0 +1,41 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="81px" viewBox="-0.5 -0.5 341 81" content="&lt;mxfile&gt;&lt;diagram id=&quot;x0j4HIwktkM2eKp_j1dC&quot; name=&quot;Page-1&quot;&gt;rVVNj5swEP01SO1hI7ATsjmGNLu9VFoph54dmIC7DkONyUd/fcdgB0g2qxw2kZD9ZjyeefMGAr7an161qIpfmIEKWJidAv4jYGzOI3pa4NwBs8VzB+RaZh0U9cBG/gMHhg5tZAb1yNEgKiOrMZhiWUJqRpjQGo9jtx2q8a2VyOEG2KRC3aK/ZWYKh0bxojf8BJkX/up4Nu0sW5G+5xqb0l0YMB4t7L8z74UP5iqtC5HhcQDxdcBXGtF0q/1pBcpy63nrzr3csV4S11CaRw7ELu+DUA34lNvEzNmzQTlWdlkbqAKeVKDlHgxoB731++RYSAObSqTW/0jaIKwwe0W7iJY7eQLfbruvu+UTlZ1kUlMrJZY2LDaWJ/JXaoUKdZsIn8/m4Zbbc0bjO3hLiSVFSVrWwdYVWhdPrN3csuKIOoA2cBpAjqVXQCpJn8nFW+euY07SfOqIOvYC8S7FQBrPDhNOkvklct8VWrjG3GnS4oMmxcpYhpAqYnFu2iqHGA2HJy7+22DnwAVMI86G0Pjs1gPLZPlmR0eSCuwEaZJuTatvLGTR94u7vglwg1B12w+wYeaTycT2R+Ohnfura+2LBHaylK06WIg7erj8NFRYS4Ntq3D7hyRUf5rKmLArpfcSiu6p7EqS6/ZHuFAyt9JNSWLtKAideqVbeVulSXrDLJ2fweqBeaFkh0G+WtTsAVGz6deomrb9a621Db4dfP0f&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(25, 25, 25);">
+    <defs/>
+    <g>
+        <path d="M -5 5 L 75 5 L 75 40 L 75 75 L -5 75 L -5 40 Z" fill="#7570b3" stroke="none" transform="rotate(90,35,40)" pointer-events="all"/>
+        <rect x="100" y="0" width="240" height="80" rx="9.6" ry="9.6" fill="#eeeeee" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 7px; margin-left: 101px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font>
+                                    <font style="font-size: 14px" color="#7570b3">
+                                        <b>
+                                            ABAP file formats (2021)
+                                            <br/>
+                                            <br/>
+                                        </b>
+                                    </font>
+                                    ... provides file format definition of ABAP repository objects
+                                    <br/>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="220" y="19" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ABAP file formats (2021)...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
