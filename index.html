@@ -101,49 +101,67 @@
       </section>
 
       <section>
-        <h2>BAdI Enhancement Spot</h2>
 
-        <div class="container">
+        <section>
+          <h2>BAdI Enhancement Spot</h2>
 
-          <div class="col">
-            <p>ADT form-based editor</p>
-            <img src="./img/enhs_adt.png" class="plain">
+          <div class="container">
+
+            <div class="col">
+              <p>ADT form-based editor</p>
+              <img src="./img/enhs_adt.png" class="plain">
+            </div>
+
+            <div class="col">
+              <p>AFF file</p>
+              <pre style="font-size: 14px"><code data-trim data-noescape>
+              {
+                "formatVersion": "1",
+                "header": {
+                  "description": "",
+                  "originalLanguage": "en"
+                },
+                "configuration": {
+                  "tool": "badiDefinition"
+                },
+                "badiDefinitions": [
+                  {
+                    "name": "BADI_WB_OBJECT_VERS_PROVIDER",
+                    "description": "BAdI  definition for workbench",
+                    "interface": "IF_WB_OBJECT_VERSION_PROVIDER",
+                    "instantiation": "creatingNewInstances",
+                    "multipleUse": false,
+                    "fallbackClass": "CL_BLUE_TLOGO_VERSION_PROVIDER",
+                    "filters": [
+                      {
+                        "name": "OBJECT_TYPE",
+                        "description": "Workbench object type",
+                        "type": "characterLike"
+                      }
+                    ]
+                  }
+                ]
+              }
+              </code></pre>
+            </div>
           </div>
 
-          <div class="col">
-            <p>AFF file</p>
-            <pre style="font-size: 14px"><code data-trim data-noescape>
-            {
-              "formatVersion": "1",
-              "header": {
-                "description": "",
-                "originalLanguage": "en"
-              },
-              "configuration": {
-                "tool": "badiDefinition"
-              },
-              "badiDefinitions": [
-                {
-                  "name": "BADI_WB_OBJECT_VERS_PROVIDER",
-                  "description": "BAdI  definition for workbench",
-                  "interface": "IF_WB_OBJECT_VERSION_PROVIDER",
-                  "instantiation": "creatingNewInstances",
-                  "multipleUse": false,
-                  "fallbackClass": "CL_BLUE_TLOGO_VERSION_PROVIDER",
-                  "filters": [
-                    {
-                      "name": "OBJECT_TYPE",
-                      "description": "Workbench object type",
-                      "type": "characterLike"
-                    }
-                  ]
-                }
-              ]
-            }
-            </code></pre>
-          </div>
-        </div>
+        </section>
 
+        <section>
+          <h2>On filenames and formatting</h2>
+          <p>Filename is composed by</p>
+          <ul>
+            <li>obj_name.TYPE.json</li>
+            </ul>
+          <p>Ensure interchangeability by formatting</p>
+          <ul>
+            <li>UTF-8</li>
+            <li>End-of-line marker LF ('\n')</li>
+            <li>Empty line at end-of-file</li>
+          </ul>
+
+        </section>
       </section>
 
       <section>
