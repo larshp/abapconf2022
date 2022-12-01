@@ -20,5 +20,9 @@
 #abapXmlExample {
   overflow: hidden;
   max-height: unset;
-  width: unset;
+}
+
+.fixed {
+  font-family: Courier;
+  font-weight: normal !important;
 }
