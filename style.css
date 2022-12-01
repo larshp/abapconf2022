@@ -26,3 +26,12 @@
   font-family: Courier;
   font-weight: normal !important;
 }
+
+.avatar {
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+  filter: grayscale(1);
+  border-radius: 50%;
+  margin: 1px !important;
+}
