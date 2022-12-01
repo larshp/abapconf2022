@@ -16,3 +16,13 @@
 .col{
     flex: auto;
 }
+
+#abapXmlExample {
+  overflow: hidden;
+  max-height: unset;
+}
+
+.fixed {
+  font-family: Courier;
+  font-weight: normal !important;
+}

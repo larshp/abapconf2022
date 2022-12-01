@@ -42,31 +42,11 @@
       </section>
 
       <section>
-        <h2>Disclaimer</h2>
-        <p style="font-size:20px" align="justify">
-          The information in this presentation is confidential and proprietary to SAP and may not be disclosed without
-          the permission of SAP.
-          Except for your obligation to protect confidential information, this presentation is not subject to your
-          license agreement or any other service or subscription agreement with SAP.
-          SAP has no obligation to pursue any course of business outlined in this presentation or any related document,
-          or to develop or release any functionality mentioned therein.
-          <br>
-          This presentation, or any related document and SAP's strategy and possible future developments, products and
-          or platforms directions and functionality are all subject to change and may be changed by SAP at any time for
-          any reason without notice.
-          The information in this presentation is not a commitment, promise or legal obligation to deliver any material,
-          code or functionality.
-          This presentation is provided without a warranty of any kind, either express or implied, including but not
-          limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
-          This presentation is for informational purposes and may not be incorporated into a contract. SAP assumes no
-          responsibility for errors or omissions in this presentation, except if such damages were caused by SAP’s
-          intentional or gross negligence.
-          <br>
-          All forward-looking statements are subject to various risks and uncertainties that could cause actual results
-          to differ materially from expectations.
-          Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of
-          their dates, and they should not be relied upon in making purchasing decisions.
-        </p>
+        <h1>Disclaimer</h1>
+        <ul>
+          <li>Everything might change</li>
+          <li>Check respective licenses(MIT & Apache2)</li>
+        </ul>
       </section>
 
       <section>
@@ -152,7 +132,7 @@
           <h2>On filenames and formatting</h2>
           <p>Filename is composed by</p>
           <ul>
-            <li>obj_name.TYPE.json</li>
+            <li class="fixed">obj_name.TYPE.json</li>
             </ul>
           <p>Ensure interchangeability by formatting</p>
           <ul>
@@ -160,7 +140,6 @@
             <li>End-of-line marker LF ('\n')</li>
             <li>Empty line at end-of-file</li>
           </ul>
-
         </section>
       </section>
 
@@ -174,11 +153,11 @@
               <th>Description</th>
             </tr>
             <tr>
-              <th>object_name.intf.abap</th>
+              <th class="fixed">object_name.intf.abap</th>
               <th>ABAP source code</th>
             </tr>
             <tr>
-              <th>object_name.intf.json</th>
+              <th class="fixed">object_name.intf.json</th>
               <th style="color:#42affa">Metadata file</th>
             </tr>
           </table>
@@ -201,30 +180,26 @@
               Extension</a></p>
         </section>
 
-        <section data-markdown>
+        <section>
+          <h2>Metadata file in abapGit</h2>
 
-          <textarea data-template>
-            ## Metadata file in abapGit
-
-            The recent file format
-            ```xml
-            <?xml version="1.0" encoding="utf-8"?>
-            <abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
-            <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
-              <asx:values>
-              <VSEOINTERF>
-                <CLSNAME>ZIF_ABAPGIT_AFF_INTF_V1</CLSNAME>
-                <LANGU>E</LANGU>
-                <DESCRIPT>AFF: Interface v1</DESCRIPT>
-                <EXPOSURE>2</EXPOSURE>
-                <STATE>1</STATE>
-                <UNICODE>X</UNICODE>
-              </VSEOINTERF>
-              </asx:values>
-            </asx:abap>
-            </abapGit>
-            ```
-          </textarea>
+          The recent file format
+<pre><code id="abapXmlExample"><script type="text/template"><?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+  <VSEOINTERF>
+    <CLSNAME>ZIF_ABAPGIT_AFF_INTF_V1</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>AFF: Interface v1</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+  </VSEOINTERF>
+  </asx:values>
+</asx:abap>
+</abapGit>
+</script></code></pre>
         </section>
 
       </section>
@@ -233,7 +208,6 @@
         <h2>AFF vision of ONE format</h2>
 
         <div class="container">
-
           <div class="col">
             <p>ADT History/Compare</p>
             <img src="./img/adt_compare.png" class="plain">
@@ -244,7 +218,7 @@
             <img src="./img/abapgit_chkv.png" class="plain">
             <p>gCTS</p>
           </div>
-
+        </div>
       </section>
 
 
@@ -257,20 +231,39 @@
       </section>
 
       <section>
-        <h2>how its generated(to be)</h2>
+        <h2>abapGit activation</h2>
+        <ul>
+          <li>Can be tested via "experimental" switch</li>
+          <li>Will be enabled when no information is lost(<a href="https://github.com/SAP/abap-file-formats/issues/106">translations</a>)</li>
+          <li>Pull old format, stage new format</li>
+          <li>Still 702 and up</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>abapGit migration</h2>
+        handling old xml files => automatic conversion
+<br><br>
+        automated standalone migration path
+<br><br>
+        100s of xmls, takes time
+      </section>
+
+      <section>
+        <h2>Schema Generation</h2>
+        from ABAP in ABAP<br>
         <img src="./img/schemas1.drawio.svg" class="plain">
       </section>
 
       <section>
+        <h2>Automated Schema Generation</h2>
+        for everyone in the world<br>
         <img src="./img/schemas2.drawio.svg" class="plain">
       </section>
 
       <section>
-        when is it activated by default in abapGit?
-      </section>
-
-      <section>
-        abapGit handling old xml files => automatic conversion
+        <h2>Thanks to all contributors</h2>
+list, todo
       </section>
 
       <section>
