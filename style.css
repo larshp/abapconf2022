@@ -16,3 +16,9 @@
 .col{
     flex: auto;
 }
+
+#abapXmlExample {
+  overflow: hidden;
+  max-height: unset;
+  width: unset;
+}

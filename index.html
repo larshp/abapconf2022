@@ -201,30 +201,26 @@
               Extension</a></p>
         </section>
 
-        <section data-markdown>
+        <section>
+          <h2>Metadata file in abapGit</h2>
 
-          <textarea data-template>
-            ## Metadata file in abapGit
-
-            The recent file format
-            ```xml
-            <?xml version="1.0" encoding="utf-8"?>
-            <abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
-            <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
-              <asx:values>
-              <VSEOINTERF>
-                <CLSNAME>ZIF_ABAPGIT_AFF_INTF_V1</CLSNAME>
-                <LANGU>E</LANGU>
-                <DESCRIPT>AFF: Interface v1</DESCRIPT>
-                <EXPOSURE>2</EXPOSURE>
-                <STATE>1</STATE>
-                <UNICODE>X</UNICODE>
-              </VSEOINTERF>
-              </asx:values>
-            </asx:abap>
-            </abapGit>
-            ```
-          </textarea>
+          The recent file format
+<pre><code id="abapXmlExample"><script type="text/template"><?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+  <VSEOINTERF>
+    <CLSNAME>ZIF_ABAPGIT_AFF_INTF_V1</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>AFF: Interface v1</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+  </VSEOINTERF>
+  </asx:values>
+</asx:abap>
+</abapGit>
+</script></code></pre>
         </section>
 
       </section>
