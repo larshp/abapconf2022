@@ -57,7 +57,7 @@
       </section>
 
       <section>
-        <h2>Why ABAP file formats (AFF)?</h2>
+        <h2>What is ABAP file formats (AFF)?</h2>
         <img src="./img/db.png" class="plain" height="200">
         <img src="./img/arrows.png" class="plain" height="200">
         <img src="./img/file.png" class="plain" height="200">
@@ -67,9 +67,8 @@
       <section>
         <h2>How?</h2>
         <img src="./img/json.png" class="plain" height="160">
-        <p>AFF specifies a JSON Schema per object type</p>
-        <p>JSON Schema is generated from an ABAP type</p>
-        <p>ABAP type is the common basis for serializers</p>
+        <p>For every object there is exactly one file named <code>&lt;object_name&gt;.&lt;type&gt;.json</code></p>
+        <p>For its annotation and validation there is a JSON Schema, generated from an ABAP type</p>
       </section>
 
       <section>
@@ -202,6 +201,37 @@
 </script></code></pre>
         </section>
 
+        <section>
+          <h2>Metadata file in gCTS</h2>
+
+          The database entries as JSON data
+          <pre><code data-trim data-noescape>
+          ...
+          {
+            "table": "SEOCLASSTX",
+            "data": [
+              {
+                "CLSNAME": "ZIF_ABAPGIT_AFF_INTF_V1",
+                "LANGU": "E",
+                "DESCRIPT": "AFF: Interface v1"
+              }
+            ]
+          },
+          {
+            "table": "SEOCLASSDF",
+            "data": [
+            {
+              "CLSNAME": "ZIF_ABAPGIT_AFF_INTF_V1",
+              "VERSION": 1,
+              "CATEGORY": 0,
+              "EXPOSURE": 2,
+              "STATE": 1,
+              "RELEASE": 0,
+              "AUTHOR": "MR_X",
+          ...
+          </code></pre>
+        </section>
+
       </section>
 
       <section>
@@ -216,7 +246,6 @@
           <div class="col">
             <p>abapGit</p>
             <img src="./img/abapgit_chkv.png" class="plain">
-            <p>gCTS</p>
           </div>
         </div>
       </section>
