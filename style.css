@@ -13,6 +13,7 @@
 .container{
     display: flex;
 }
+
 .col{
     flex: auto;
 }
@@ -34,4 +35,8 @@
   filter: grayscale(1);
   border-radius: 50%;
   margin: 1px !important;
+}
+
+.nomargin {
+  margin: 0px !important;
 }
