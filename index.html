@@ -67,7 +67,7 @@
       <section>
         <h2>How?</h2>
         <img src="./img/json.png" class="plain" height="160">
-        <p>For every object there is exactly one file named <code>&lt;object_name&gt;.&lt;type&gt;.json</code></p>
+        <p>For every object there is exactly one file named <code>object_name.type.json</code></p>
         <p>For its annotation and validation there is a JSON Schema, generated from an ABAP type</p>
       </section>
 
@@ -97,7 +97,7 @@
               {
                 "formatVersion": "1",
                 "header": {
-                  "description": "",
+                  "description": "WB Object Versioning",
                   "originalLanguage": "en"
                 },
                 "configuration": {
@@ -128,10 +128,10 @@
         </section>
 
         <section>
-          <h2>On filenames and formatting</h2>
+          <h2>Filenames and formatting</h2>
           <p>Filename is composed by</p>
           <ul>
-            <li class="fixed">obj_name.TYPE.json</li>
+            <li class="fixed">obj_name.type.json</li>
             </ul>
           <p>Ensure interchangeability by formatting</p>
           <ul>
@@ -157,7 +157,7 @@
             </tr>
             <tr>
               <th class="fixed">object_name.intf.json</th>
-              <th style="color:#42affa">Metadata file</th>
+              <th>Metadata file</th>
             </tr>
           </table>
         </section>
@@ -182,7 +182,7 @@
         <section>
           <h2>Metadata file in abapGit</h2>
 
-          The recent file format
+          XML data for creation of the object
 <pre><code id="abapXmlExample"><script type="text/template"><?xml version="1.0" encoding="utf-8"?>
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
 <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
@@ -235,7 +235,7 @@
       </section>
 
       <section>
-        <h2>AFF vision of ONE format</h2>
+        <h2>Vision of ONE file format</h2>
 
         <div class="container">
           <div class="col">
@@ -244,7 +244,7 @@
           </div>
 
           <div class="col">
-            <p>abapGit</p>
+            <p>abapGit, abapGit Eclipse plugin (Steampunk)</p>
             <img src="./img/abapgit_chkv.png" class="plain">
           </div>
         </div>
