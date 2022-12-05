@@ -40,3 +40,7 @@
 .nomargin {
   margin: 0px !important;
 }
+
+.hide-horizontal-overflow {
+  overflow-x: hidden !important;
+}
